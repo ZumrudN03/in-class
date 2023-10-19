@@ -1,0 +1,95 @@
+// .container{
+//     max-width: 100%;
+// }
+// .navbar {
+//     width: 100%;
+//     // display: flex;
+//     // flex-direction: column;
+//     // justify-content: space-around;
+//     text-align: center;
+//     height: 50vh;
+//     background-image: url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg");
+//     background-size: cover;
+
+//     .navbarHeader{
+//         display: flex;
+//         justify-content: space-around;
+//         z-index: 1;
+//     }
+//     .start-btn{
+//         font-size: 1.2rem;
+//         font-weight: 800;
+
+
+//         a{
+//             color: white;
+//         }
+//     }
+
+
+//         ul{
+//             display: flex;
+//             li{
+//                 a{
+//                     padding-left: 1rem;
+//                     font-weight: 700;
+//                     color: white;
+
+//             }
+//                 }
+//         }
+
+
+
+// }
+.navbar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg");
+  
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .start-btn{
+            font-size: 32px;
+            a{
+             
+                color: black;
+            }
+        }
+        ul{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+            li{
+             
+                margin: 10px;
+                font-size: 28px;
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 40vh;
+       .text{
+        text-align: center;
+        color: #fff;
+        h1{
+            font-size: 48px;
+
+
+        }
+        p{
+            font-size: 28px;
+        }
+       }
+    }
+}
